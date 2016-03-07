@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/conversation_item_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:text="Joe Bloggs"
+        android:textColor="@android:color/secondary_text_light"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/conversation_item_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        android:layout_marginStart="12dp"
+        android:text="Sample message from the user"
+        android:textColor="@android:color/primary_text_light"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/conversation_item_time_sent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:gravity="end"
+        android:text="113:30 PM"
+        android:textColor="@android:color/tertiary_text_light"
+        android:textSize="14sp" />
+</LinearLayout>
